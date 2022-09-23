@@ -1,11 +1,47 @@
 .attribution { 
-    font-size: 30px; 
+    font-size: 15px; 
     text-align: center; 
 }
 .attribution a { 
-    color: hsl(345, 40%, 39%); 
+    color: hsl(0, 2%, 10%); 
 }
 
-.teste{
-    color: aqua;
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.container{
+    width: 50%;
+    height: 50%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    margin: auto;
+  
+}
+
+figure .imagem{
+    position: relative;
+    border-radius: 18px;
+    border-color: brown;
+}
+
+figure.imagem img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+figure.imagem figcaption{
+    
+    top: 0%;
+}
+
+p{
+    color: hsl(220, 15%, 55%);
+}
+
+h1{
+    color: hsl(218, 44%, 22%);
 }
